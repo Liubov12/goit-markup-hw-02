@@ -86,7 +86,25 @@ ul{
     color: var(--primery-text-color);
 }
 .current{
-    color:var(--accent-color)
+    color:var(--accent-color)  
+}
+.studio{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+color: var(--primery-text-color);
+}
+.header-menu .portfolio{
+color:var(--accent-color)
+}
+.header-menu .contacts{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--second-primery-text-color);
 }
 
 /* общие войства контанктов */
@@ -307,15 +325,13 @@ text-decoration: none;
 }
 .footer-link{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;s
-letter-spacing: 0.03em;
-
-color:var(--contact-footer-color);
-text-decoration: none;
-   
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color:var(--contact-footer-color);
+    text-decoration: none;
 }
 .social:hover,
 .social:focus{
@@ -327,18 +343,18 @@ text-decoration: none;
     font-weight: bold;
     font-size: 14px;
     line-height: 16px;
-
+ 
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
 }
 .footer-title:hover,
 .footer-title:focus{
-    color: color:var(--accent-color);
+    color:var(--accent-color);
 }
 .adress:hover,
 .adress:focus{
-    color: color:var(--accent-color);
+    color:var(--accent-color);
 }
 .footer-button:hover,
 .footer-button:focus{

@@ -18,9 +18,9 @@ html{
 body{
     background: var(--white-color);
     color: var(--primery-text-color);
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
     letter-spacing:0.03em;
-    
+    text-decoration: none;
 }
 ul{
     list-style:none 
@@ -64,32 +64,19 @@ ul{
     color:var(--accent-color)
 }
 .header-menu{
-        
-    font-family: inherit;
+    font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.15;
     letter-spacing: 0.02em;
-    color: var(--primery-text-color);
-        
-    
+    color: var(--primery-text-color);   
 }
-.info:hover,
-.info:focus{
-    color:var(--accent-color)
+.phone:hover,
+.phone:focus{
+    color:var(--accent-color);
 }
-.info{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14px;
-    letter-spacing: 0.02em;
-    color:var(--second-primery-text-color);
-   
 
-} 
 
 .header-menu .link{
     font-family: inherit;
@@ -99,23 +86,29 @@ ul{
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--primery-text-color);
- 
+} 
+
+.header-menu .link{
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
 }
 
 .header-menu .studio {
-    font-family: Roboto;
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;    
     line-height: 1.17;
     letter-spacing: 0.02em;
     color: var(--accent-color);
-    
-    }
-
+}
 .header-menu .portfolio{
-
-    font-family: inherit;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -124,17 +117,13 @@ ul{
     color: var(--second-primery-text-color);
     }
 .header-menu .contacts{
-
-
-    font-family: inherit
+    font-family:'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-
-
-    color: #757575;   
+    color: var(--accent-color);   
     }
     /*свойства контейнера имейла*/
 
@@ -145,43 +134,35 @@ ul{
         font-weight: 500;
         font-size: 14px;
         line-height: 1.17;
-        letter-spacing: 0.02em;
-        
-        color: var(--accent-color);
+        letter-spacing: 0.02em; 
+        color: var(--caption-color);
     }
     /*свойства контейнера телефона */
 .info .phone{
-    
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height:1.17;
     letter-spacing: 0.02em;
-    color: #757575;}
+    color: var(--caption-color)
+}
 .main-title{
-
-
-font-family: Roboto;
-font-style: normal;
-font-weight: 900;
-font-size: 44px;
-line-height: 1.4;
-  
-
-text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;  
-
-color: #FFFFFF;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;  
+    color: var(--white-color);
 } 
 .buttom{
-
-   color:var(--white-color);
-   background: var(--accent-color);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
+    color:var(--white-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 
 }
 .button:hover,
@@ -307,23 +288,22 @@ color:var(--contact-footer-color);
     color:var(--accent-color);
 }
 .footer-title{  
-    font-family: Roboto;
+    font-family:'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
     line-height: 1.14;
-
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
+    color: var(--white-color);
 }
 .footer-title:hover,
 .footer-title:focus{
-    color: color:var(--accent-color);
+    color:var(--accent-color);
 }
 
 .button-nav{
-    background: var(--background-grey);
+    background: var(--accent-color);
     color: var(--primary-text-color);
     font-family: inherit;
     font-weight: 500;
