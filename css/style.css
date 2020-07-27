@@ -6,10 +6,18 @@
     --second-primery-text-color: #757575;
 
 }
+html{
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
 body{
     background: var(--white-color);
-    color: #212121
-    font-family: Roboto;
+    color: #212121;
+    font-family:'Roboto';
     letter-spacing: 0.03em;
 
 }
@@ -25,11 +33,7 @@ ul{
  
 
 .header-logo {
-    position: absolute;
-width: 141px;
-height: 28px;
-left: 15px;
-top: 26px;
+
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -54,17 +58,9 @@ top: 26px;
     letter-spacing: 0.03em;
     color: #2196F3;
     text-decoration: none;
-
-}
-
-section .link-accent{
-    color:var(--accent-color)
-
 }
 /*ссылки в шапке страницы */
-section .link{
-   color:var(--primery-text-color);
-}
+
 
 /* наведения на ссылки страницы */
 .header-menu .link:hover,
@@ -72,61 +68,27 @@ section .link{
     color:var(--accent-color);
 }
 .header-menu{
-  
-    display: flex;
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
+    color: var(--primery-text-color);
     
    
 }
-.header-menu.link{
-    
-   
+.header-menu .link{
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-   
+    color: var(--primery-text-color);
 }
-.studio{
-position: absolute;
-width: 49px;
-height: 16px;
-left: 237px;
-top: 32px;
+.current{
+    color:var(--accent-color)
+}
 
-
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-
-color: var(--primery-text-color);
-}
-.header-menu .portfolio{
-    position: absolute;
-width: 77px;
-height: 16px;
-left: 336px;
-top: 32px;
-color:var(--accent-color)
-}
-.header-menu .contacts{
-    position: absolute;
-    width: 68px;
-    height: 16px;
-    left: 463px;
-    top: 32px;
-    
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--second-primery-text-color);
-}
 /* общие войства контанктов */
 .info:hover,
 .info:focus{
@@ -134,31 +96,11 @@ color:var(--accent-color)
 }
 .info{
     font-family: inherit;
-    f
     font-weight: 500;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:var(--second-primery-text-color)    
-}
-/*свойства контейнера имейла*/
-.mail{
-  
-    position: absolute;
-    width: 116px;
-    height: 14px;
-    left: 637px;
-    top: 21px;
-}
-/*свойства контейнера телефона */
-.phone{
-    position: absolute;
-    width: 105px;
-    height: 14px;
-    left: 633px;
-    top: 45px;
-    
-
 }
 
 /* кнопки */
@@ -172,7 +114,7 @@ button :focus {
     color:var(--accent-color)
 }
 .menu .title{
-    font-family: inherit;
+font-family: inherit;
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
@@ -183,8 +125,6 @@ text-align: center;
 color: var(--primery-text-color);
 }
 .title-all{
-    
-
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
@@ -195,44 +135,19 @@ color: #FFFFFF;
 
 }
 .all{
-    padding-top: 170px;
-    text-align: center;
-
    background: var(--accent-color);
 }
 .veb{
-    text-align: center;
     background: #F5F4FA;
     border-radius: 4px;
 }
 .options{
-
-    text-align: center;
     background: #F5F4FA;
     border-radius: 4px;
     
-}
-.design{
-
-    text-align: center;
-    background: #F5F4FA;
-    border-radius: 4px;
-
-   
-    
-}
-.marketing{
-
-text-align: center;
-
-background: #F5F4FA;
-border-radius: 4px;
- 
 }
 
 .tech{
-
-
 
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
@@ -266,8 +181,6 @@ box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0p
     }
 .main-design{
     position: absolute;
-
-
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
