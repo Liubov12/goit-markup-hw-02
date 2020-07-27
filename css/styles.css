@@ -127,6 +127,10 @@ ul{
     }
     /*свойства контейнера имейла*/
 
+    .contact-info:focus,
+    .contact-info:hover{  
+        color:var(--accent-color)
+    }
 .info .mail{
         
         font-family: Roboto;
@@ -157,6 +161,7 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;  
     color: var(--white-color);
+    background-color: blue;
 } 
 .buttom{
     color:var(--white-color);

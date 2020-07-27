@@ -89,15 +89,15 @@ ul{
     color:var(--accent-color)  
 }
 .studio{
-font-weight: 500;
-font-size: 14px;
-line-height: 1.2;
-letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
 color: var(--primery-text-color);
 }
 .header-menu .portfolio{
-color:var(--accent-color)
+    color:var(--accent-color)
 }
 .header-menu .contacts{
     font-weight: 500;
@@ -132,24 +132,22 @@ button :focus {
     color:var(--accent-color)
 }
 .menu .title{
-font-family: inherit;
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 26px;
-
-text-align: center;
-
-color: var(--primery-text-color);
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: var(--primery-text-color);
 }
 .title-all{
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
-background-color: var(--accent-color);
-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--accent-color);
+    color: #FFFFFF;
 
 }
 .all{
@@ -167,10 +165,10 @@ color: #FFFFFF;
 
 .tech{
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
    
 }
 
@@ -198,39 +196,37 @@ box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0p
     color: var(--primery-text-color);            
     }
 .main-design{
-    position: absolute;
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-}
+        position: absolute;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    }
 
 .seafood{
 
-width: 354px;
-height: 404px;
+    width: 354px;
+    height: 404px;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
-
-}
+ }
 .main-marketing{
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 .main-options{
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 .main-veb{
 
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
 }
 .edition{
 
@@ -245,11 +241,9 @@ box-sizing: border-box;
     box-sizing: border-box;
 }
 .business{
-    
-
-background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-boxs
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-boxs
 }
 
 .underbox:hover,
@@ -284,8 +278,7 @@ li:focus{
     
 /* подвал сайта  */
 footer{
-
-background: #2F303A;
+    background: #2F303A;
 
 }
 .footer-logo:hover,
@@ -306,16 +299,14 @@ background: #2F303A;
 }
 .adress{
     font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 24px;
-
-text-align: center;
-letter-spacing: 0.03em;
-
-color: #FFFFFF;
-text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
 
 }
 /* общие свойства телефона и mail  */
