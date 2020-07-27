@@ -26,11 +26,7 @@ ul{
  
 
 .header-logo {
-    position: absolute;
-    width: 141px;
-    height: 28px;
-    left: 15px;
-    top: 26px;
+  
     font-family: Raleway;
     font-style: normal;
     font-weight: bold;
@@ -60,7 +56,7 @@ ul{
     color:var(--accent-color)
 }
 .header-menu{
-        display: flex;
+        
         font-family: Roboto;
         font-style: normal;
         font-weight: 500;
@@ -86,7 +82,6 @@ ul{
 } 
 
 .header-menu .link{
-    display: flex;
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -97,13 +92,6 @@ ul{
 }
 
 .header-menu .studio {
-   
-    position: absolute;
-    width: 49px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -113,11 +101,6 @@ ul{
     color: var(--accent-color);
     }
 .header-menu .portfolio{
-    position: absolute;
-    width: 77px;
-    height: 16px;
-    left: 552px;
-    top: 32px;
 
     font-family: Roboto;
     font-style: normal;
@@ -128,11 +111,7 @@ ul{
     color: var(--second-primery-text-color);
     }
 .header-menu .contacts{
-    position: absolute;
-    width: 68px;
-    height: 16px;
-    left: 679px;
-    top: 32px;
+
 
     font-family: Roboto;
     font-style: normal;
@@ -142,21 +121,11 @@ ul{
     letter-spacing: 0.02em;
 
 
-    color: var(--second-primery-text-color);   
+    color: #757575;   
     }
     /*свойства контейнера имейла*/
-    
-.info{
-    display: flex;
-}
 
 .info .mail{
-      
-        position: absolute;
-        width: 135px;
-        height: 16px;
-        left: 1078px;
-        top: 32px;
         
         font-family: Roboto;
         font-style: normal;
@@ -169,12 +138,7 @@ ul{
     }
     /*свойства контейнера телефона */
 .info .phone{
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
-    padding-right: 215px;
+    
 
     font-family: Roboto;
     font-style: normal;
@@ -182,13 +146,9 @@ ul{
     font-size: 14px;
     line-height:1.17;
     letter-spacing: 0.02em;
-    color: var(--second-primery-text-color);}
+    color: #757575;}
 .main-title{
-    position: absolute;
-width: 696px;
-height: 120px;
-left: 452px;
-top: 280px;
+
 
 font-family: Roboto;
 font-style: normal;
@@ -204,11 +164,7 @@ text-transform: uppercase;
 color: #FFFFFF;
 } 
 .buttom{
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
+
    color:var(--white-color);
    background: var(--accent-color);
    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
