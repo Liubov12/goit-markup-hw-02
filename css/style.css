@@ -19,10 +19,15 @@ body{
     color: #212121;
     font-family:'Roboto';
     letter-spacing: 0.03em;
-
+    margin: 0;
+ widows: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 ul{
-    list-style:none  
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style:none 
 }
 /* цвет основного текста #212121 */
 
@@ -118,7 +123,7 @@ color: var(--primery-text-color);
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--second-primery-text-color)    
+    color:var(--c)    
 }
 
 /* кнопки */
@@ -169,12 +174,14 @@ button :focus {
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
-   
+    
+}
+.techno{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .box{
-
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -187,29 +194,28 @@ button :focus {
     color:var(--accent-color);
 }
 .caption{
-    font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: var(--primery-text-color);            
+    color: var(--primery-text-color); 
+    margin-top: 0px;
+    margin-bottom: 0px;           
     }
 .main-design{
-        position: absolute;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     }
 
 .seafood{
-
-    width: 354px;
-    height: 404px;
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
-
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
  }
 .main-marketing{
 
@@ -252,7 +258,7 @@ button :focus {
     color:var(--accent-color);
 }
 .underbox{
-    font-family: Roboto;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -315,7 +321,6 @@ footer{
     color:var(--accent-color);
 }
 .footer-link{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -328,8 +333,7 @@ footer{
 .social:focus{
     color:var(--accent-color);
 }
-.footer-title{  
-    font-family: Roboto;
+.title{  
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
@@ -338,16 +342,22 @@ footer{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-.footer-title:hover,
-.footer-title:focus{
+.footer.title:hover,
+.footer.title:focus{
     color:var(--accent-color);
 }
 .adress:hover,
 .adress:focus{
     color:var(--accent-color);
 }
-.footer-button:hover,
-.footer-button:focus{
+.footer.button:hover,
+.footer.button:focus{
     color: var(--accent-color)
+}
+.button{
+    background-color: var(--accent-color);
+    color:var(--white-color)
 }

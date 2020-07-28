@@ -21,8 +21,14 @@ body{
     font-family: Roboto, sans-serif;
     letter-spacing:0.03em;
     text-decoration: none;
+    margin: 0;
+    widows: 1230px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 ul{
+    margin-top: 0;
+    margin-bottom: 0;
     list-style:none 
 }
 /* цвет основного текста #212121 */
@@ -34,8 +40,7 @@ ul{
  
 
 .header-logo {
-  
-    font-family: Raleway;
+    font-family:'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -50,7 +55,7 @@ ul{
 .header-logo:focus{
      color:var(--accent-color);}
 .logo-web{
-    font-family: Raleway;
+    font-family:'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -64,7 +69,7 @@ ul{
     color:var(--accent-color)
 }
 .header-menu{
-    font-family: Roboto;
+    font-family: inherit;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -72,12 +77,18 @@ ul{
     letter-spacing: 0.02em;
     color: var(--primery-text-color);   
 }
-.phone:hover,
-.phone:focus{
-    color:var(--accent-color);
+.info:hover,
+.info:focus{
+    color:var(--accent-color)
 }
-
-
+.info{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color:var(--caption-color)    
+}
 .header-menu .link{
     font-family: inherit;
     font-style: normal;
@@ -123,7 +134,8 @@ ul{
     font-size: 14px;
     line-height: 1.17;
     letter-spacing: 0.02em;
-    color: var(--accent-color);   
+    color: var(--accent-color);  
+
     }
     /*свойства контейнера имейла*/
 
@@ -131,28 +143,15 @@ ul{
     .contact-info:hover{  
         color:var(--accent-color)
     }
-.info .mail{
-        
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 1.17;
-        letter-spacing: 0.02em; 
-        color: var(--caption-color);
-    }
     /*свойства контейнера телефона */
-.info .phone{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height:1.17;
-    letter-spacing: 0.02em;
-    color: var(--caption-color)
+
+.container{
+    margin-top: 0px ;
+    margin-bottom: 0px;
 }
 .main-title{
-    font-family:'Roboto';
+    margin-top: 0;
+    margin-bottom: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -163,12 +162,18 @@ ul{
     color: var(--white-color);
     background-color: blue;
 } 
-.buttom{
+.button{
+    display:inline-block;
+    border-radius: 4px;
+    padding: 10 32;
     color:var(--white-color);
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
-
+    line-height: 1.4 ;
+    font-weight: 500px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 700px;
 }
 .button:hover,
 .button:focus {
@@ -199,6 +204,8 @@ ul{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .skill-list .title {
     color: var(--white);
@@ -248,7 +255,7 @@ footer{
 }
 .footer-logo{
 
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -256,6 +263,7 @@ footer{
     text-align: center;
     letter-spacing: 0.03em;
     color:white;
+    text-decoration: none;
 }
 .address{
 
@@ -301,23 +309,13 @@ color:var(--contact-footer-color);
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--white-color);
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .footer-title:hover,
 .footer-title:focus{
     color:var(--accent-color);
 }
-
-.button-nav{
-    background: var(--accent-color);
-    color: var(--primary-text-color);
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-}
-.button-nav:hover,
-.button-nav:focus {
-    color: var(--white);
-    background: var(--accent-color);
+.button.footer{
+    padding: 10 29;
 }
