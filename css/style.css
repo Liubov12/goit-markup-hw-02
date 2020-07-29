@@ -20,7 +20,7 @@ body{
     font-family:'Roboto';
     letter-spacing: 0.03em;
     margin: 0;
- widows: 1230px;
+    widows: 1230px;
     padding-left: 15px;
     padding-right: 15px;
 }
@@ -39,7 +39,7 @@ ul{
 
 .header-logo {
 
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -49,13 +49,19 @@ ul{
     text-decoration: none;
 
 }
-
+.webstudio{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-logo:hover,
 .header-logo:active,
 .header-logo:focus{
      color:var(--accent-color);}
 .logo-web{
-    font-family: Raleway;
+    padding-top: 24px;
+    padding-bottom: 25px;
+
+    font-family:'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -73,6 +79,9 @@ ul{
     color:var(--accent-color);
 }
 .header-menu{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 14px;
@@ -104,28 +113,55 @@ color: var(--primery-text-color);
 .header-menu .portfolio{
     color:var(--accent-color)
 }
-.header-menu .contacts{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--second-primery-text-color);
-}
 
 /* общие войства контанктов */
-.info:hover,
-.info:focus{
+.mail:hover,
+.mail:focus{
     color:var(--accent-color)
 }
+
+.mail{
+    color:var(--second-primery-text-color);
+}
+.phone:hover,
+.phone:focus{
+    color:var(--accent-color)
+}
+.phone{
+    color:var(--second-primery-text-color);
+}
 .info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--c)    
+       
 }
-
+/* рассположение контента в heder */
+.header-menu{
+    display: flex;
+    margin-left: 85px;
+    padding-left: 0px;
+}
+.contacts{
+    display: flex;
+    margin-left: auto;
+}
+.header-menu .item+.item{
+    margin-left: 50px;
+}
+.contacts .info+.info{
+    margin-left: 50px;
+}
+.auth-nav{
+    display: flex;
+    align-items: center;
+   
+}
 /* кнопки */
 button :hover,
 button :focus {

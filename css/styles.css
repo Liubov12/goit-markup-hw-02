@@ -38,9 +38,10 @@ ul{
 /* цвет -акцент #2196F3*/
 /* цвет контактов в footer rgba(255, 255, 255, 0.6)*/
  
-
+/* логотип */
 .header-logo {
-    font-family:'Raleway';
+
+    font-family: 'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -48,106 +49,143 @@ ul{
     letter-spacing: 0.03em;
     color: var(--primery-text-color);
     text-decoration: none;
-}
 
+}
+.webstudio{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 .header-logo:hover,
 .header-logo:active,
 .header-logo:focus{
      color:var(--accent-color);}
 .logo-web{
+    padding-top: 24px;
+    padding-bottom: 25px;
+
     font-family:'Raleway';
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
-
+    color: #2196F3;
+    text-decoration: none;
 }
+/*ссылки в шапке страницы */
+
+
+/* наведения на ссылки страницы */
 .header-menu .link:hover,
 .header-menu .link:focus{
-    color:var(--accent-color)
+    color:var(--accent-color);
 }
 .header-menu{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-family: inherit;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.15;
+    line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--primery-text-color);   
+    color: var(--primery-text-color);
+    
+   
 }
-.info:hover,
-.info:focus{
+.header-menu .studio{
+    margin-right: 0px;
+}
+.header-menu .link{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primery-text-color);
+}
+.current{
+    color:var(--accent-color)  
+}
+.studio{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+color: var(--primery-text-color);
+}
+.header-menu .portfolio{
     color:var(--accent-color)
 }
+
+/* общие войства контанктов */
+.mail:hover,
+.mail:focus{
+    color:var(--accent-color)
+}
+
+.mail{
+    color:var(--second-primery-text-color);
+}
+.phone:hover,
+.phone:focus{
+    color:var(--accent-color)
+}
+.phone{
+    color:var(--second-primery-text-color);
+}
 .info{
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-family: inherit;
     font-weight: 500;
     font-size: 12px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color:var(--caption-color)    
+       
 }
-.header-menu .link{
-    font-family: inherit;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--primery-text-color);
-} 
-
-.header-menu .link{
-    font-family:'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--primery-text-color);
+/* рассположение контента в heder */
+.header-menu{
+    display: flex;
+    margin-left: 85px;
+    padding-left: 0px;
 }
 
-.header-menu .studio {
-    font-family:'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;    
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
+.contacts{
+    display: flex;
+    padding-left: 0px;
+    margin-left: auto;
+  
 }
-.header-menu .portfolio{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--second-primery-text-color);
-    }
-.header-menu .contacts{
-    font-family:'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.17;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);  
+.header-menu .item+.item{
+    margin-left: 50px;
+}
+.contacts .info+.info{
+    margin-left: 50px;
+}
+.auth-nav{
+    display: flex;
+    align-items: center;
+   
+}
 
-    }
-    /*свойства контейнера имейла*/
-
-    .contact-info:focus,
-    .contact-info:hover{  
-        color:var(--accent-color)
-    }
-    /*свойства контейнера телефона */
-
+/* main container */
 .container{
     margin-top: 0px ;
     margin-bottom: 0px;
+    background-color: var(--accent-color);
+}
+.section{
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.section.skills{
+   padding-top: 0px;
+   padding-bottom: 0px;
 }
 .main-title{
     margin-top: 0;
@@ -160,7 +198,7 @@ ul{
     letter-spacing: 0.06em;
     text-transform: uppercase;  
     color: var(--white-color);
-    background-color: blue;
+   
 } 
 .button{
     display:inline-block;
@@ -212,6 +250,10 @@ ul{
     text-align: center;
     text-transform: uppercase;
 }
+.team{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
 .team .title {
     
 font-style: normal;
@@ -262,7 +304,7 @@ footer{
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    color:white;
+    color:var(--white-color);
     text-decoration: none;
 }
 .address{
@@ -275,7 +317,7 @@ line-height: 24px;
 
 letter-spacing: 0.03em;
 
-color: #FFFFFF;
+color:var(--white-color);
 }
 .address:hover,
 .address:focus{
